@@ -1,0 +1,74 @@
+<html>
+<head>
+  <title>Tab Navigation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <img src="https://i.postimg.cc/RZ6HX9p0/3e225ed3-f115-4468-8187-ebef11baa1b6-removebg-preview.png" class="logo">
+  <ul class="navigationbar">
+    <li><a href="#"> Home ✰ </a></li>
+    <li><a href="#"> Programmes ✰ </a></li>
+    <li><a href="#"> Admissions ✰ </a></li>
+    <li><a href="#"> Calendar ✰ </a></li>
+    <li><a href="#"> Join Us ✰ </a></li>
+  </ul>
+  <div class="topnav">
+    <input type="text" placeholder="Search..">
+  </div>
+</nav>
+
+<div class="tab-container">
+  <div class="tab active" data-tab="review"> 
+    <h2>Review Page</h2>
+    <p>商品のレビュー・口コミ</p>
+  </div>
+  <div class="tab" data-tab="featured">
+    <h2>Featured By</h2>
+    <p>紹介されたプラットフォーム</p>
+  </div>
+  <div class="tab" data-tab="faq">
+    <h2>FAQ</h2>
+    <p>質問コーナー</p>
+  </div>
+</div>
+
+<div class="tab-content">
+
+  <!-- REVIEW SECTION -->
+  <div id="review" class="content active">
+    <figure class="summary">
+      <img src="https://i.postimg.cc/N03pM1m4/Screen-Shot-2025-05-13-at-21-46-52.png" alt="Review Screenshot 1">
+    </figure>
+    <figure class="summary">
+      <img src="https://i.postimg.cc/j2m9rLtw/Screen-Shot-2025-05-13-at-21-48-11.png" alt="Review Screenshot 2">
+    </figure>
+    <figure class="summary">
+      <img src="https://i.postimg.cc/tTtNpKgp/Screen-Shot-2025-05-13-at-22-03-37.png" alt="Review Screenshot 3">
+    </figure>
+  </div>
+
+  <div id="featured" class="content">
+    <figure class="summary">
+      <img src="https://i.postimg.cc/WzK9ynZL/Screen-Shot-2025-05-13-at-22-14-39.png" alt="Featured Screenshot 1">
+    </figure>
+    <figure class="summary">
+      <img src="https://i.postimg.cc/mZz2Prrh/Screen-Shot-2025-05-13-at-22-14-56.png" alt="Featured Screenshot 2">
+    </figure>
+  </div>
+
+  <div id="faq" class="content">
+    <figure class="summary">
+      <img src="https://i.postimg.cc/9M9C0jRR/Screen-Shot-2025-05-13-at-22-40-35.png" alt="FAQ Screenshot 1">
+    </figure>
+    <figure class="summary">
+      <img src="https://i.postimg.cc/nLv3hRVV/Screen-Shot-2025-05-13-at-22-40-48.png" alt="FAQ Screenshot 2">
+    </figure>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
