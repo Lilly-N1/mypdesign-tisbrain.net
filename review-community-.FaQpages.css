@@ -1,0 +1,88 @@
+nav {
+  		display: flex;
+  		flex-wrap: wrap;
+  		align-items: center;
+      opacity: 0.5;
+  		background-color: #7d9fba;
+  		justify-content: space-between;
+  		overflow: auto;
+  		padding: 14px 16px;
+}
+ul li {
+  			position: relative;
+  			margin: 15px 20px;
+  			list-style: none;
+  			display: inline-block;
+  			padding: 5px;
+  			font-size: 20px;
+  			font-family: arial;
+}
+.logo {
+  style: margin-left 40px;
+  text-align: top;
+  style: width: 86px; height: 136px;
+}
+ul li a {
+text-decoration: none; 
+cursor: pointer;
+color: rgb(255, 255, 255);
+}
+ul li a:hover {
+   			background-color: #ffbcb8;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fffceb;
+  margin: 0;
+  padding: 20px;
+}
+.tab-container { 
+  display: flex;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+}
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border: 3px solid transparent;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab h2, .tab p {
+  margin: 0;
+}
+.tab.active {
+  border-color: black;
+  background: #fdfbee;
+  font-weight: bold;
+  color: black;
+}
+.tab:not(.active) {
+  background: #fdfbee;
+  color: lightgray;
+  border-color: lightgray;
+}
+
+.tab-content .content {
+  display: none;
+}
+
+.tab-content .content.active {
+  display: block;
+}
+
+.summary img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
