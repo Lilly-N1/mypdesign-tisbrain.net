@@ -1,0 +1,72 @@
+h2 {
+  text-align: center;
+  background-color: #cfddcf;
+  font-family: 	Courier New
+}
+nav {
+  			display: flex;
+  			flex-wrap: wrap;
+  			align-items: center;
+        opacity: 0.5;
+  			background-color: #7d9fba;
+  			justify-content: space-between;
+  			overflow: auto;
+  			padding: 14px 16px;
+}
+body {
+Background-image: url("https://i.postimg.cc/4yqMHLTQ/Screenshot-2025-04-22-at-20-24-37.png");
+size: 200%
+background-repeat: no-repeat;
+background-size: cover;
+}
+ul li {
+  			position: relative;
+  			margin: 15px 20px;
+  			list-style: none;
+  			display: inline-block;
+  			padding: 5px;
+  			font-size: 20px;
+  			font-family: arial;
+}
+.logo {
+  style: margin-left 40px;
+  text-align: top;
+  style: width: 86px; height: 136px;
+}
+ul li a {
+text-decoration: none; 
+cursor: pointer;
+color: rgb(255, 255, 255);
+}
+ul li a:hover {
+   			background-color: #ffbcb8;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  outline: none;
+}
+h1{
+  font-family: arial;
+  text-align: center;
+  font-size: 50px
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  outline: none;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  outline: none;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.clicked {
+  transform: scale(0.95);
+  box-shadow: 0 0 20px #2e7d32;
+}
