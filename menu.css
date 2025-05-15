@@ -1,0 +1,100 @@
+h2 {
+  text-align: center;
+  background-color: #cfddcf;
+  font-family: 	Courier New
+}
+nav {
+  			display: flex;
+  			flex-wrap: wrap;
+  			align-items: center;
+        opacity: 0.5;
+  			background-color: #7d9fba;
+  			justify-content: space-between;
+  			overflow: auto;
+  			padding: 14px 16px;
+}
+body {
+Background-image: url("https://i.postimg.cc/4yqMHLTQ/Screenshot-2025-04-22-at-20-24-37.png");
+size: 200%
+background-repeat: no-repeat;
+background-size: cover;
+}
+ul li {
+  			position: relative;
+  			margin: 15px 20px;
+  			list-style: none;
+  			display: inline-block;
+  			padding: 5px;
+  			font-size: 20px;
+  			font-family: arial;
+}
+.logo {
+  style: margin-left 40px;
+  text-align: top;
+  style: width: 86px; height: 136px;
+}
+ul li a {
+text-decoration: none; 
+cursor: pointer;
+color: rgb(255, 255, 255);
+}
+ul li a:hover {
+   			background-color: #ffbcb8;
+}
+h1{
+  font-family: arial;
+  text-align: center;
+  font-size: 50px
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.tablink {
+  background-color: #96b096;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 25px;
+  width: 33.33333%;
+}
+
+.tablink:hover {
+  background-color: #869e86;
+}
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Foods {background-color: #fffceb;}
+#Sweets {background-color: #fffceb;}
+#Drinks {background-color: #fffceb;}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+img:hover {
+  box-shadow: 0 8px 20px rgba(207, 221, 207, 0.7); 
+}
+
+img:active {
+  box-shadow: 0 4px 10px rgba(207, 221, 207, 0.7); 
+}
