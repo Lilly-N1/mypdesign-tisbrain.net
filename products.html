@@ -1,89 +1,38 @@
-<html>
-<body>
-  <head>
-  <link rel="stylesheet" type="text/css" href="products.css"/>
-  </head>
-  <head>
-  <link rel="stylesheet" href="products.css">
-</head>
-  <head>
-  <link rel="stylesheet" href="products.js">
-</head>
+ <Body>
   <h2 class="container"> Buy over 6000 yen to get 20% off ! </h2>
 <nav>
   <img src="https://i.postimg.cc/RZ6HX9p0/3e225ed3-f115-4468-8187-ebef11baa1b6-removebg-preview.png" class="logo" >
-<ul class"navigationbar">
-    <li> <a href="index.html"> Home ✰ </a></li>
- <li> <a href="menu.html"> Menu ✰ </a></li>
- <li> <a href="products.html"> Games ✰</a></li>
- <li> <a href=" review-community-.FaQpages.html"> Other Pages ✰</a></li>
+<ul =class"navigationbar">
+ <li> <a href="#"> Home ✰ </a></li>
+ <li> <a href="#"> Menu ✰ </a></li>
+ <li> <a href="#"> Other Products ✰</a</li>
+ <li> <a href="#"> About Us ✰</a></li>
 </ul>
     <div class="topnav">
   <input type="text" placeholder="Search..">
 </div>
   </nav>
-  <h1> Games </h1>
-<head>
-  <style>
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      padding: 20px;
-    }
+  <h1> Menu </h1>
+<button class="tablink" onclick="openPage('Foods', this, '#7a967a')">Foods</button>
+<button class="tablink" onclick="openPage('Sweets', this, '#7a967a')" id="defaultOpen">Sweets</button>
+<button class="tablink" onclick="openPage('Drinks', this, '#7a967a')">Drinks</button>
 
-    .item {
-      flex: 1 1 calc(40% - 20px);
-      max-width: calc(40% - 20px);
-      box-sizing: border-box;
-      transition: transform 0.2s ease;
-    }
-
-    .item:hover {
-      transform: scale(1.05);
-    }
-
-    .item img {
-      width: 100%;
-      height: auto;
-      display: block;
-      outline: none;
-      border: none;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .clicked {
-      transform: scale(0.95);
-      box-shadow: 0 0 20px #cfddcf;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="item">
-      <img src="https://i.postimg.cc/yNTmwPRg/Screenshot-2025-05-13-at-22-10-42-removebg-preview.png">
-    </div>
-    <div class="item">
-      <img src="https://i.postimg.cc/3JVCQNch/Screenshot-2025-05-13-at-22-13-28-removebg-preview.png">
-    </div>
-    <div class="item">
-      <img src="https://i.postimg.cc/1RHsdN4g/Screenshot-2025-05-13-at-22-14-21-removebg-preview.png">
-    </div>
-    <div class="item">
-      <img src="https://i.postimg.cc/Wz2FvLM0/Screenshot-2025-05-13-at-22-15-06-removebg-preview.png">
-    </div>
+<div id="Foods" class="tabcontent">
+  <img src="https://i.postimg.cc/fTmK42Bs/Screenshot-2025-05-01-at-15-39-20-removebg-preview.png" class="food1">
+  <img src="https://i.postimg.cc/Jz7BTPFP/Screenshot-2025-05-01-at-15-41-24-removebg-preview.png" class="food2">
+  <img
+src="https://i.postimg.cc/Ghf1Np7V/Screenshot-2025-05-01-at-15-42-21-removebg-preview.png" class="food3">
+  <img src="https://i.postimg.cc/nVY40jzV/Screenshot-2025-05-01-at-15-43-43-removebg-preview.png" class="food4">
   </div>
+  
+<div id="Sweets" class="tabcontent">
+  <img src="https://i.postimg.cc/SR3YJhds/Screenshot-2025-05-01-at-15-46-07-removebg-preview.png" class="sweet1">
+    <img src="https://i.postimg.cc/5N8wKsmC/Screenshot-2025-05-01-at-15-46-48-removebg-preview.png" class="sweet2">
+</div>
 
-  <script>
-    document.querySelectorAll('.item img').forEach(img => {
-      img.addEventListener('click', () => {
-        img.classList.add('clicked');
-        setTimeout(() => {
-          img.classList.remove('clicked');
-        }, 200); 
-      });
-    });
-  </script>
-</body>
-</html>
+<div id="Drinks" class="tabcontent">
+    <img src="https://i.postimg.cc/mgvWZ2Hq/Screenshot-2025-05-01-at-15-47-41-removebg-preview.png" class="drink1">
+    <img src="https://i.postimg.cc/P5GSPLSm/Screenshot-2025-05-01-at-15-48-20-removebg-preview.png" class="drink2">
+   <img src="https://i.postimg.cc/zXqcjHC8/Screenshot-2025-05-01-at-15-49-55-removebg-preview.png" class="drink3">
+  <img src="https://i.postimg.cc/YqgQhdGS/Screenshot-2025-05-01-at-15-50-46-removebg-preview.png" class="drink4">
+</div>
