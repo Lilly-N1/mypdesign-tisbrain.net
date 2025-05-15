@@ -1,0 +1,80 @@
+<html>
+<body>
+  <h2 class="container"> Buy over 6000 yen to get 20% off ! </h2>
+<nav>
+  <img src="https://i.postimg.cc/RZ6HX9p0/3e225ed3-f115-4468-8187-ebef11baa1b6-removebg-preview.png" class="logo" >
+<ul =class"navigationbar">
+<li> <a href="index.html"> Home </a></li>
+ <li> <a href="menu.html"> Menu </a></li>
+ <li> <a href="games.html"> Games</a></li>
+ <li> <a href="otherpages.html"> Other Pages</a></li>
+</ul>
+    <div class="topnav">
+  <input type="text" placeholder="Search..">
+</div>
+  </nav>
+  <h1> Games </h1>
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      flex: 1 1 calc(40% - 20px);
+      max-width: calc(40% - 20px);
+      box-sizing: border-box;
+      transition: transform 0.2s ease;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      outline: none;
+      border: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .clicked {
+      transform: scale(0.95);
+      box-shadow: 0 0 20px #cfddcf;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <img src="https://i.postimg.cc/yNTmwPRg/Screenshot-2025-05-13-at-22-10-42-removebg-preview.png">
+    </div>
+    <div class="item">
+      <img src="https://i.postimg.cc/3JVCQNch/Screenshot-2025-05-13-at-22-13-28-removebg-preview.png">
+    </div>
+    <div class="item">
+      <img src="https://i.postimg.cc/1RHsdN4g/Screenshot-2025-05-13-at-22-14-21-removebg-preview.png">
+    </div>
+    <div class="item">
+      <img src="https://i.postimg.cc/Wz2FvLM0/Screenshot-2025-05-13-at-22-15-06-removebg-preview.png">
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.item img').forEach(img => {
+      img.addEventListener('click', () => {
+        img.classList.add('clicked');
+        setTimeout(() => {
+          img.classList.remove('clicked');
+        }, 200); 
+      });
+    });
+  </script>
+</body>
+</html>
